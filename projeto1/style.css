@@ -1,0 +1,51 @@
+@import './header.css';
+@import './main.css';
+@import './experiencia.css';
+@import './formacao.css';
+@import  './footer.css';
+
+body {
+  margin: 0px;
+  margin: 0 auto;
+  max-width: 1500px;
+  font-family: 'fira sans', Arial, Helvetica, sans-serif;
+  color: #141414;
+}
+
+
+ul {
+  display: block;
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h2 {
+  font-size: 9rem;
+  display: block;
+  word-break:break-all;
+line-height: 1.1;
+ max-width: 4ch;
+}
+
+.h2experiencia {
+  color: #E0E0E0;
+ }
+
+.h2formacao {
+color: #292929;
+}
